@@ -24,14 +24,4 @@ class JokenpoMaquina(Jokenpo):
         self.player2=random.choice(self.opcoes)
 
     def jokenpo(self):
-
-        if self.player1==self.player2:
-            print("Empate")
-        elif self.player1 == "pedra" and self.player2== "tesolra":
-            print("Jogador 1 venceu")
-        elif self.player1 == "tesolra" and self.player2== "papel":
-            print("Jogador 1 venceu")
-        elif self.player1 == "papel" and self.player2== "pedra":
-            print("Jogador 1 venceu")
-        else:
-            print("Jogador 2 venceu")
+        super().jokenpo()
