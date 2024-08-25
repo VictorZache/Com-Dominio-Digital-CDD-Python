@@ -6,7 +6,8 @@ calcular e escrever a área do retângulo.
 #Variaveis que recebem os valores do retangulo
 base = int(input("Digite a base do retabulo: "))
 altura = int(input("Digite a altura do retangulo: "))
-#Variavel
+
+#Variavel de calculo
 area = base*altura
 
 print(f"A area do retanguro e de {area}")
