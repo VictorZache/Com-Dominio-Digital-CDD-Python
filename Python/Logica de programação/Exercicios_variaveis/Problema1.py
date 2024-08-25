@@ -5,5 +5,5 @@ depois mostre o nome na tela.
 #O python é capas de identificar qual o tipo de dado sera passado, neste caso sera passado uma string.
 nome = input("Digite seu nome: ")
 
-#O print serve para que o seja impresso no terminal oque for passado no dentro do comando.
+#O print serve para que seja impresso no terminal oque for passado no dentro do comando.
 print(nome)
